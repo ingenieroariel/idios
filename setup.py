@@ -5,14 +5,14 @@ VERSION = __import__("idios").__version__
 
 
 setup(
-    name = "idios",
+    name = "geonode-profiles",
     version = VERSION,
-    author = "Eldarion",
-    author_email = "development@eldarion.com",
-    description = "an extensible profile app designed to replace the profiles apps in Pinax",
+    author = "Ariel Núñez",
+    author_email = "ingenieroariel@gmail.com",
+    description = "A fork of Idios, to be customized for Geonode",
     long_description = open("README.rst").read(),
     license = "BSD",
-    url = "http://github.com/eldarion/idios",
+    url = "http://github.com/ingenieroariel/geonode-profiles",
     packages = [
         "idios",
         "idios.templatetags",
